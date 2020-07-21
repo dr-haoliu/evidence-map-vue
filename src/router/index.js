@@ -1,6 +1,8 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import PYO from '../views/PYO'
+import SearchPubMed from "../views/SearchPubMed";
 
 Vue.use(VueRouter)
 
@@ -10,6 +12,16 @@ Vue.use(VueRouter)
     name: 'Home',
     component: Home
   },
+    {
+      path: '/search',
+      name: 'Search',
+      component: SearchPubMed
+    },
+    {
+      path: '/parse',
+      name: 'PYO',
+      component: PYO
+    },
   {
     path: '/about',
     name: 'About',
