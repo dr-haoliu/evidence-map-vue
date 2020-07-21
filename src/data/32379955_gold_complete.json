@@ -1,0 +1,676 @@
+{
+  "doc_id": "32379955",
+  "abstract": "Observational Study of Hydroxychloroquine in Hospitalized Patients with Covid-19 .\nBACKGROUND : Hydroxychloroquine has been widely administered to patients with Covid-19 without robust evidence supporting its use .\nMETHODS : We examined the association between hydroxychloroquine use and intubation or death at a large medical center in New York City .\nData were obtained regarding consecutive patients hospitalized with Covid-19 , excluding those who were intubated , died , or discharged within 24 hours after presentation to the emergency department ( study baseline ) .\nThe primary end point was a composite of intubation or death in a time-to-event analysis .\nWe compared outcomes in patients who received hydroxychloroquine with those in patients who did not , using a multivariable Cox model with inverse probability weighting according to the propensity score .\nRESULTS : Of 1446 consecutive patients , 70 patients were intubated , died , or discharged within 24 hours after presentation and were excluded from the analysis .\nOf the remaining 1376 patients , during a median follow-up of 22.5 days , 811 ( 58.9 % ) received hydroxychloroquine ( 600 mg twice on day 1 , then 400 mg daily for a median of 5 days ) ; 45.8 % of the patients were treated within 24 hours after presentation to the emergency department , and 85.9 % within 48 hours .\nHydroxychloroquine-treated patients were more severely ill at baseline than those who did not receive hydroxychloroquine ( median ratio of partial pressure of arterial oxygen to the fraction of inspired oxygen , 223 vs. 360 ) .\nOverall , 346 patients ( 25.1 % ) had a primary end-point event ( 180 patients were intubated , of whom 66 subsequently died , and 166 died without intubation ) .\nIn the main analysis , there was no significant association between hydroxychloroquine use and intubation or death ( hazard ratio , 1.04 , 95 % confidence interval , 0.82 to 1.32 ) .\nResults were similar in multiple sensitivity analyses .\nCONCLUSIONS : In this observational study involving patients with Covid-19 who had been admitted to the hospital , hydroxychloroquine administration was not associated with either a greatly lowered or an increased risk of the composite end point of intubation or death .\nRandomized , controlled trials of hydroxychloroquine in patients with Covid-19 are needed .\n",
+  "study design": {
+    "Participant": [
+      {
+        "term": "hospitalized patients",
+        "negation": false,
+        "umls": "C0870668"
+      },
+      {
+        "term": "covid-19",
+        "negation": false,
+        "umls": "C5203670"
+      },
+      {
+        "term": "intubated",
+        "negation": true,
+        "umls": "C4698386"
+      },
+      {
+        "term": "died",
+        "negation": true,
+        "umls": "C0011065"
+      },
+      {
+        "term": "discharged",
+        "negation": true,
+        "umls": "C0030685"
+      }
+    ],
+    "Intervention": [
+      {
+        "term": "Hydroxychloroquine",
+        "negation": true,
+        "umls": "C0020336"
+      },
+      {
+        "term": "Hydroxychloroquine",
+        "negation": true,
+        "umls": "C0020336"
+      }
+    ],
+    "Outcome": [
+      {
+        "term": "intubation",
+        "negation": false,
+        "umls": "C0021925"
+      },
+      {
+        "term": "death",
+        "negation": false,
+        "umls": "C1306577"
+      },
+      {
+        "term": "composite of intubation or death",
+        "negation": false,
+        "umls": ""
+      }
+    ],
+    "Hypothesis": [
+      {
+        "Intervention": "hydroxychloroquine",
+        "Observation": "association",
+        "Outcome": "composite of intubation or death"
+      }
+    ]
+  },
+  "study results": {
+    "Participant": [
+      {
+        "term": "intubated",
+        "negation": false,
+        "umls": "",
+        "count": "70 patients"
+      },
+      {
+        "term": "died",
+        "negation": false,
+        "umls": "",
+        "count": "70 patients"
+      },
+      {
+        "term": "discharged",
+        "negation": false,
+        "umls": "",
+        "count": "70 patients"
+      }
+    ],
+    "All Arms": [
+      {
+        "Observation": "",
+        "Outcome": "primary end-point event",
+        "Count": "346 patients ( 25.1 % )",
+        "negation": false
+      },
+      {
+        "Observation": "",
+        "Outcome": "intubated",
+        "Count": "180 patients",
+        "negation": false
+      },
+      {
+        "Observation": "",
+        "Outcome": "subsequently died",
+        "Count": "66",
+        "negation": false
+      },
+      {
+        "Observation": "",
+        "Outcome": "died without intubation",
+        "Count": "166",
+        "negation": false
+      }
+    ],
+    "Comparison": [
+      {
+        "Invervention": "Hydroxychloroquine-treated",
+        "Comparator": "not",
+        "Observation": "more",
+        "Outcome": "severely ill",
+        "Count": "",
+        "negation": false
+      }
+    ],
+    "Arm 1": {
+      "term": "Hydroxychloroquine",
+      "results": [
+        {
+          "Observation": "223",
+          "Outcome": "median ratio of partial pressure of arterial oxygen to the fraction of inspired oxygen",
+          "Count": "",
+          "negation": false
+        },
+        {
+          "Observation": "significant association",
+          "Outcome": "death",
+          "Count": "",
+          "negation": true
+        },
+        {
+          "Observation": "significant association",
+          "Outcome": "intubation",
+          "Count": "",
+          "negation": true
+        },
+        {
+          "Observation": "1.04",
+          "Outcome": "hazard ratio",
+          "Count": "",
+          "negation": false
+        },
+        {
+          "Observation": "greatly lowered or an increased",
+          "Outcome": "risk of the composite end point of intubation or death  ",
+          "Count": "",
+          "negation": true
+        }
+      ]
+    },
+    "Arm 2": {
+      "term": "no Hydroxychloroquine",
+      "results": [
+        {
+          "Observation": "360",
+          "Outcome": "median ratio of partial pressure of arterial oxygen to the fraction of inspired oxygen  ",
+          "Count": "",
+          "negation": false
+        }
+      ]
+    }
+  },
+  "Sentences-level Breakdown": [
+    {
+      "Section": "TITLE",
+      "text": "Observational Study of Hydroxychloroquine in Hospitalized Patients with Covid-19 .",
+      "Evidence Elements": {
+        "Participant": [
+          {
+            "term": "Hospitalized Patients",
+            "negation": false,
+            "UMLS": "C0870668",
+            "start_index": 23
+          },
+          {
+            "term": "Covid-19",
+            "negation": false,
+            "UMLS": "C5203670",
+            "start_index": 23
+          }
+        ],
+        "Intervention": [
+          {
+            "term": "Hydroxychloroquine",
+            "negation": false,
+            "UMLS": "C0020336",
+            "start_index": 23
+          }
+        ],
+        "Outcome": []
+      },
+      "Evidence Propositions": {}
+    },
+    {
+      "Section": "BACKGROUND",
+      "text": "BACKGROUND : Hydroxychloroquine has been widely administered to patients with Covid-19 without robust evidence supporting its use .",
+      "Evidence Elements": {},
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "METHODS",
+      "text": "METHODS : We examined the association between hydroxychloroquine use and intubation or death at a large medical center in New York City .",
+      "Evidence Elements": {
+        "Participant": [
+          {
+            "term": "hydroxychloroquine use",
+            "class": "Intervention",
+            "negation": false,
+            "UMLS": "C0020336",
+            "start_index": 46
+          }
+        ],
+        "Intervention": [],
+        "Outcome": [
+          {
+            "term": "death",
+            "negation": false,
+            "UMLS": "",
+            "start_index": 87
+          },
+          {
+            "term": "intubation",
+            "negation": false,
+            "UMLS": "",
+            "start_index": 73
+          }
+        ]
+      },
+      "Evidence Propositions": [
+        {
+          "Intervention": "hydroxychloroquine use",
+          "Observation": "association",
+          "Outcome": "intubation",
+          "Count": "",
+          "negation": false
+        },
+        {
+          "Intervention": "hydroxychloroquine use",
+          "Observation": "association",
+          "Outcome": "death",
+          "Count": "",
+          "negation": false
+        }
+      ]
+    },
+    {
+      "Section": "METHODS",
+      "text": "Data were obtained regarding consecutive patients hospitalized with Covid-19 , excluding those who were intubated , died , or discharged within 24 hours after presentation to the emergency department ( study baseline ) .",
+      "Evidence Elements": {
+        "Participant": [
+          {
+            "term": "hospitalized",
+            "negation": false,
+            "UMLS": "C0870668",
+            "start_index": 50
+          },
+          {
+            "term": "Covid-19",
+            "negation": false,
+            "UMLS": "C5203670",
+            "start_index": 68
+          },
+          {
+            "term": "intubated",
+            "negation": true,
+            "UMLS": "C4698386",
+            "start_index": 104
+          },
+          {
+            "term": "died",
+            "negation": true,
+            "UMLS": "C0011065",
+            "start_index": 116
+          },
+          {
+            "term": "discharged",
+            "negation": true,
+            "UMLS": "C0030685",
+            "start_index": 125
+          }
+        ],
+        "Intervention": [],
+        "Outcome": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "METHODS",
+      "text": "The primary end point was a composite of intubation or death in a time-to-event analysis .",
+      "Evidence Elements": {
+        "Participants": [],
+        "Intervention": [],
+        "Outcome": [
+          {
+            "term": "a composite of intubation or death",
+            "negation": false,
+            "UMLS": "",
+            "start_index": 26
+          }
+        ]
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "METHODS",
+      "text": "We compared outcomes in patients who received hydroxychloroquine with those in patients who did not , using a multivariable Cox model with inverse probability weighting according to the propensity score .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [
+          {
+            "term": "hydroxychloroquine",
+            "negation": false,
+            "UMLS": "C0020336",
+            "start_index": 46
+          },
+          {
+            "term": "not",
+            "negation": false,
+            "UMLS": "",
+            "start_index": 96
+          }
+        ],
+        "Ourcome": [
+          {
+            "term": "outcomes",
+            "negation": false,
+            "UMLS": "",
+            "start_index": 13
+          }
+        ]
+      },
+      "Evidence Propositions": [
+        {
+          "Intervention": "hydroxychloroquine",
+          "Observation": "",
+          "Outcome": "outcomes",
+          "Count": "",
+          "negation": false
+        },
+        {
+          "Intervention": "not",
+          "Observation": "",
+          "Outcome": "outcomes",
+          "Count": "",
+          "negation": false
+        }
+      ]
+    },
+    {
+      "Section": "RESULTS",
+      "text": "RESULTS : Of 1446 consecutive patients , 70 patients were intubated , died , or discharged within 24 hours after presentation and were excluded from the analysis .",
+      "Evidence Elements": {
+        "Participant": [
+          {
+            "term": "intubated",
+            "negation": false,
+            "UMLS": "C4698386",
+            "start_index": 58
+          },
+          {
+            "term": "died",
+            "negation": false,
+            "UMLS": "C0011065",
+            "start_index": 70
+          },
+          {
+            "term": "discharged",
+            "negation": false,
+            "UMLS": "C0030685",
+            "start_index": 80
+          }
+        ]
+      },
+      "Evidence Propositions": [
+        {
+          "Participant": "intubated",
+          "Count": "70 patients"
+        },
+        {
+          "Participant": "died",
+          "Count": "70 patients"
+        },
+        {
+          "Participant": "discharged",
+          "Count": "70 patients"
+        }
+      ]
+    },
+    {
+      "Section": "RESULTS",
+      "text": "Of the remaining 1376 patients , during a median follow-up of 22.5 days , 811 ( 58.9 % ) received hydroxychloroquine ( 600 mg twice on day 1 , then 400 mg daily for a median of 5 days ) ; 45.8 % of the patients were treated within 24 hours after presentation to the emergency department , and 85.9 % within 48 hours .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [
+          {
+            "term": "hydroxychloroquine",
+            "class": "Intervention",
+            "negation": false,
+            "UMLS": "C0020336",
+            "start_index": 98
+          }
+        ],
+        "Outcome": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "RESULTS",
+      "text": "Hydroxychloroquine-treated patients were more severely ill at baseline than those who did not receive hydroxychloroquine ( median ratio of partial pressure of arterial oxygen to the fraction of inspired oxygen , 223 vs. 360 ) .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [
+          {
+            "term": "Hydroxychloroquine-treated",
+            "negation": false,
+            "UMLS": "C0020336",
+            "start_index": 0
+          },
+          {
+            "term": "hydroxychloroquine",
+            "negation": false,
+            "UMLS": "C0020336",
+            "start_index": 102
+          }
+        ],
+        "Outcome": [
+          {
+            "term": "severely ill",
+            "negation": false,
+            "UMLS": "C0010340",
+            "start_index": 46
+          },
+          {
+            "term": "median ratio of partial pressure of arterial oxygen to the fraction of inspired oxygen",
+            "negation": false,
+            "UMLS": "",
+            "start_index": 123
+          }
+        ]
+      },
+      "Evidence Propositions": [
+        {
+          "Intervention": [
+            "Hydroxychloroquine-treated",
+            "hydroxychloroquine"
+          ],
+          "Observation": "more",
+          "Outcome": "severely ill",
+          "Count": "",
+          "negation": false
+        },
+        {
+          "Intervention": "Hydroxychloroquine-treated",
+          "Observation": "223",
+          "Outcome": "median ratio of partial pressure of arterial oxygen to the fraction of inspired oxygen",
+          "Count": "",
+          "negation": false
+        },
+        {
+          "Intervention": "hydroxychloroquine",
+          "Observation": "360",
+          "Outcome": "median ratio of partial pressure of arterial oxygen to the fraction of inspired oxygen",
+          "Count": "",
+          "negation": false
+        }
+      ]
+    },
+    {
+      "Section": "RESULTS",
+      "text": "Overall , 346 patients ( 25.1 % ) had a primary end-point event ( 180 patients were intubated , of whom 66 subsequently died , and 166 died without intubation ) .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [],
+        "Outcome": [
+          {
+            "term": "primary end-point event",
+            "negation": false,
+            "UMLS": "",
+            "start_index": 40
+          },
+          {
+            "term": "intubated",
+            "negation": false,
+            "UMLS": "C4698386",
+            "start_index": 140
+          },
+          {
+            "term": "subsequently died",
+            "negation": false,
+            "UMLS": "C0011065",
+            "start_index": 120
+          },
+          {
+            "term": "died without intubation",
+            "negation": false,
+            "UMLS": "",
+            "start_index": 154
+          }
+        ]
+      },
+      "Evidence Propositions": [
+        {
+          "Intervention": "",
+          "Observation": "",
+          "Outcome": "primary end-point event",
+          "Count": "346 patients ( 25.1 % )",
+          "negation": false
+        },
+        {
+          "Intervention": "",
+          "Observation": "",
+          "Outcome": "intubated",
+          "Count": "180 patients",
+          "negation": false
+        },
+        {
+          "Intervention": "",
+          "Observation": "",
+          "Outcome": "subsequently died",
+          "Count": "66",
+          "negation": false
+        },
+        {
+          "Intervention": "",
+          "Observation": "",
+          "Outcome": "died without intubation",
+          "Count": "166",
+          "negation": false
+        }
+      ]
+    },
+    {
+      "Section": "RESULTS",
+      "text": "In the main analysis , there was no significant association between hydroxychloroquine use and intubation or death ( hazard ratio , 1.04 , 95 % confidence interval , 0.82 to 1.32 ) .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [
+          {
+            "term": "hydroxychloroquine",
+            "negation": false,
+            "UMLS": "C0020336",
+            "start_index": 68
+          }
+        ],
+        "Outcome": [
+          {
+            "term": "intubation",
+            "negation": false,
+            "UMLS": "C4698386",
+            "start_index": 95
+          },
+          {
+            "term": "death",
+            "negation": false,
+            "UMLS": "C1306577",
+            "start_index": 109
+          },
+          {
+            "term": "hazard ratio",
+            "negation": false,
+            "UMLS": "C2985465",
+            "start_index": 117
+          }
+        ]
+      },
+      "Evidence Propositions": [
+        {
+          "Intervention": "hydroxychloroquine",
+          "Observation": "significant association",
+          "Outcome": "death",
+          "Count": "",
+          "negation": true
+        },
+        {
+          "Intervention": "hydroxychloroquine",
+          "Observation": "significant association",
+          "Outcome": "intubation",
+          "Count": "",
+          "negation": true
+        },
+        {
+          "Intervention": "hydroxychloroquine",
+          "Observation": "1.04",
+          "Outcome": "hazard ratio",
+          "Count": "",
+          "negation": false
+        }
+      ]
+    },
+    {
+      "Section": "RESULTS",
+      "text": "Results were similar in multiple sensitivity analyses .",
+      "Evidence Elements": {
+        "Outcome": [
+          {
+            "term": "Results",
+            "class": "Outcome",
+            "negation": false,
+            "UMLS": "",
+            "start_index": 0
+          }
+        ]
+      },
+      "Evidence Propositions": [
+        {
+          "Intervention": "",
+          "Observation": "similar",
+          "Outcome": "Results",
+          "Count": "",
+          "negation": false
+        }
+      ]
+    },
+    {
+      "Section": "CONCLUSIONS",
+      "text": "CONCLUSIONS : In this observational study involving patients with Covid-19 who had been admitted to the hospital , hydroxychloroquine administration was not associated with either a greatly lowered or an increased risk of the composite end point of intubation or death .",
+      "Evidence Elements": {
+        "Participant": [
+          {
+            "term": "Covid-19",
+            "negation": false,
+            "UMLS": "C5203670",
+            "start_index": 66
+          },
+          {
+            "term": "admitted to the hospital",
+            "negation": false,
+            "UMLS": "",
+            "start_index": 74
+          }
+        ],
+        "Intervention": [
+          {
+            "term": "hydroxychloroquine",
+            "negation": false,
+            "UMLS": "C0020336",
+            "start_index": 115
+          }
+        ],
+        "Outcome": [
+          {
+            "term": "risk of the composite end point of intubation or death",
+            "negation": false,
+            "UMLS": "",
+            "start_index": 214
+          }
+        ]
+      },
+      "Evidence Propositions": [
+        {
+          "Intervention": "hydroxychloroquine",
+          "Observation": "greatly lowered or an increased",
+          "Outcome": "risk of the composite end point of intubation or death",
+          "Count": "",
+          "negation": true
+        }
+      ]
+    },
+    {
+      "Section": "CONCLUSIONS",
+      "text": "Randomized , controlled trials of hydroxychloroquine in patients with Covid-19 are needed .",
+      "Evidence Elements": {},
+      "Evidence Propositions": []
+    }
+  ]
+}
