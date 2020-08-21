@@ -1,5 +1,5 @@
 <template>
-    <div class="home">
+    <b-col class="home">
         <b-container fluid>
             <b-row align-v="start">
                 <b-col sm="1"></b-col>
@@ -15,7 +15,7 @@
                 </b-col>
                 <b-col sm="1"></b-col>
                 <b-col sm="8" class="float-right">
-                    <b-card>
+                    <b-card no-body>
                         <b-form class="d-flex flex-row">
                             <b-form-input
                                     v-model="pubid"
@@ -27,41 +27,42 @@
                         </b-form>
                     </b-card>
 
-                    <b-card style="margin-top: 10px">
-                        <b-form class="d-flex flex-row justify-content-between">
-                            <div class="col-sm-2">
+                    <b-card style="margin-top: 10px" title="Select different visualizations" >
+                        <b-row class="d-flex flex-row justify-content-between">
+                            <b-col sm="2">
                                 <div class="box">
                                     <div class="img">
                                         <img src="@/assets/monitor.png" @click="show('B')"/>
                                     </div>
+                                  Graphic View
                                 </div>
-                                <p> Graphic View</p>
-                            </div>
-                            <div class="col-sm-2">
+                            </b-col>
+                            <b-col sm="2">
                                 <div class="box">
                                     <div class="img">
                                         <img src="@/assets/draw.png" @click="show('A')"/>
                                     </div>
+                                  Tabular View
                                 </div>
-                                <p> Tabular View</p>
-                            </div>
-                            <div class="col-sm-2">
+                            </b-col>
+                            <b-col sm="2" style="margin-top: 5px">
                                 <div class="box">
                                     <div class="img">
                                         <img src="@/assets/checklist.png" @click="show('C')"/>
                                     </div>
+                                  Sentence Breakdown
                                 </div>
-                                <p>Sentence Breakdown</p>
-                            </div>
-                            <div class="col-sm-2">
+
+                            </b-col>
+                            <b-col sm="2">
                                 <div class="box">
                                     <div class="img">
                                         <img src="@/assets/edit-tools.png" @click="show('D')"/>
                                     </div>
+                                  Json View
                                 </div>
-                                <p> Json View</p>
-                            </div>
-                        </b-form>
+                            </b-col>
+                        </b-row>
                     </b-card>
                 </b-col>
 
@@ -113,7 +114,7 @@
 
         <!--    <HelloWorld msg="Welcome to Your Vue.js App"/>-->
         <!--    <GOJS/>-->
-    </div>
+    </b-col>
 </template>
 
 <script>

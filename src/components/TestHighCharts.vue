@@ -1,6 +1,6 @@
 <template>
 
-        <b-container style="overflow: scroll; height: 600px">
+        <b-container style="overflow: scroll; height: 700px;width:1400px">
 
                 <highcharts :options="chartOptions" class="mychart" ></highcharts>
 
@@ -111,7 +111,8 @@
             // this.pubid= '32379955';
             this.chartOptions = {
                 chart: {
-                    height: 600,
+                    height: 650,
+                    width: 1300,
                     inverted: true,
                     // scrollablePlotArea: {
                     //     minWidth: 1600,

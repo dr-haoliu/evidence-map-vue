@@ -4,7 +4,7 @@
             <b-row align-v="start">
                 <b-col md="1"></b-col>
                 <b-col md="2" style="height: 300px">
-                    <b-card >
+                    <b-card no-body>
                         <div class="box_large">
                             <div class="img_large">
                                 <img class="myimg" alt="Vue logo" src="../assets/logo.png">
@@ -14,7 +14,7 @@
                 </b-col>
 
                 <b-col>
-                    <b-card>
+                    <b-card no-body>
                         <b-form class="d-flex flex-row">
                             <b-form-input
                                     v-model="pubid"

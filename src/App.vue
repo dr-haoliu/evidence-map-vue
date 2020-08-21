@@ -6,7 +6,7 @@
       </div>
 
         <div class="main">
-            <div id="nav">
+            <div id="nav" style="font-size: 24px">
                 <router-link to="/">PubMed in EvidenceMap</router-link>
                 |
                 <router-link to="/search">Search PubMed</router-link>
