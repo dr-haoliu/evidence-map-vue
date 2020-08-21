@@ -145,6 +145,9 @@
                     case 'B':
                         this.name = () => import('../components/TestHighCharts')
                         break;
+                    case 'C':
+                        this.name = () => import('../components/TestEcharts')
+                        break;
                 }
             },
             onSearch() {
