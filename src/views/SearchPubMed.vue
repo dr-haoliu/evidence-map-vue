@@ -32,7 +32,7 @@
                             <b-col sm="2">
                                 <div class="box">
                                     <div class="img">
-                                        <img src="@/assets/monitor.png" @click="show('B')"/>
+                                        <img src="@/assets/monitor.png" @click="show('A')"/>
                                     </div>
                                   Graphic View
                                 </div>
@@ -40,7 +40,7 @@
                             <b-col sm="2">
                                 <div class="box">
                                     <div class="img">
-                                        <img src="@/assets/draw.png" @click="show('A')"/>
+                                        <img src="@/assets/draw.png" @click="show('B')"/>
                                     </div>
                                   Tabular View
                                 </div>
@@ -57,9 +57,9 @@
                             <b-col sm="2">
                                 <div class="box">
                                     <div class="img">
-                                        <img src="@/assets/edit-tools.png" @click="show('D')"/>
+                                        <img src="@/assets/edit-tools.png" @click="downloadJson()"/>
                                     </div>
-                                  Json View
+                                  Download Json
                                 </div>
                             </b-col>
                         </b-row>
@@ -120,6 +120,8 @@
 <script>
     // @ is an alias to /src
 
+    var appData = require('../data/32379955_gold_complete.json');
+
     import TestHighCharts from "../components/TestHighCharts";
 
 
@@ -130,7 +132,7 @@
         },
         data () {
             return {
-                name:'B',
+                name:'A',
                 pubid:'',
                 title:'',
                 abstract:'',
@@ -140,13 +142,13 @@
             show(id){
                 switch (id){
                     case 'A':
-                        this.name = () => import('../components/GOJS')
-                        break;
-                    case 'B':
                         this.name = () => import('../components/TestHighCharts')
                         break;
+                    case 'B':
+                        this.name = () => import('../components/TableView')
+                        break;
                     case 'C':
-                        this.name = () => import('../components/TestEcharts')
+                        this.name = () => import('../components/SentenceBreakDown')
                         break;
                 }
             },
@@ -157,6 +159,15 @@
                 console.log(this.$store.state.pubid);
                 this.show('B');
             },
+          downloadJson(){
+            const data = JSON.stringify(appData)
+            const blob = new Blob([data], { type: 'text/plain' });
+            const link = document.createElement('a');
+            link.href = URL.createObjectURL(blob);
+            link.download = "test.json";
+            link.click();
+            URL.revokeObjectURL(link.href);
+          }
         },
         mounted() {
             this.show('B');
